@@ -1,0 +1,64 @@
+__________________________Sorters________________________
+Removed
+     - Stooge Sort
+New
+    -cycle_sort
+    -shaker_sort            *personal creation*
+    -chaos_sort             *personal creation*
+    -optimized_wave         *personal creation*
+    -wave_sort              *personal creation*
+Unfinished
+    -pancake_sort           *needs visual optimizations*
+    -heap sort              *needs visual optimizations*
+________________________________________________________
+
+
+
+_____________________visual changes__________________
+   -new colour gradient, now starts on black, originally started on black this has been done to allow smaller array sizes to be seen.
+   -new visual section, if the array is under 1920, it creates a slope instead of using one row of pixels *minor tweaks, not all algorithms 
+     support it*
+   -small render tweaks     *reducing time to draw*
+______________________________________________________
+
+
+
+_________________________UI__________________________
+   - a User Interface has been created
+   - initial array size changer
+   - array max value 
+   - array increase value
+   - TBK (Time Before Killed)  *new features tab*
+   - tells user what sorter is active
+   - displays time to sort 
+   - displays what round (number of increases to array size)
+   - does not display killed sorters or their times
+____________________________________________________
+
+
+
+_____________________New__________________________
+   - places the time it took for the array to be sorted int an excel file 
+   - opens excel file after program is done
+   - TBK  sets a time limit for the sorter, if it goes over that time, it is killed
+   - killed sorters will not run again
+___________________________________________________
+
+
+
+______________________Warnings___________________
+   - do not create an array smaller than three
+   - array increase values must be whole numbers
+   - max array size must be larger than initial array size 
+   - max array size must less than or equal to  2073600
+   - screen size is 1080x1920
+   - time limit on sorters are measured in seconds
+   - sorting 2073600 numbers can take over an hour
+   - having excel file open while running will not allow a new one to be made
+__________________________________________________
+
+
+
+____________________Bugs_________________________
+  - incomplete sort for *optimized wave sort*
+_________________________________________________
